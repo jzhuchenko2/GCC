@@ -49,3 +49,5 @@ int main() {
     }
     return 0;
 }
+
+//<GCC_XML by CastXML
