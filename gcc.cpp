@@ -51,3 +51,14 @@ int main() {
 }
 
 //<GCC_XML by CastXML
+
+/*
+   Simple test with libxml2 <http://xmlsoft.org>. It displays the name
+   of the root element and the names of all its children (not
+   descendents, just children).
+
+   On Debian, compiles with:
+   gcc -Wall -o read-xml2 $(xml2-config --cflags) $(xml2-config --libs) \
+                    read-xml2.c    
+
+*/
